@@ -10,7 +10,7 @@ class Marca(models.Model):
 	country = models.CharField(max_length = 50)
 
 	def __str__(self):
-		return self.nombre
+		return self.name
 
 class Automovil(models.Model):
 	"""docstring for Automovil"""
